@@ -4,6 +4,7 @@
 **ID#2174132**
 
 **Embedded systems**
+
 ![image](https://user-images.githubusercontent.com/53545740/69512921-e93a7200-0faa-11ea-8c48-462c1f62e6bb.png)
 Figure 1. Format of report and project implementation (Presentation Processes, 2013)
 
@@ -18,7 +19,7 @@ The aim of this project is to create an embedded systems-based game using a Teen
 ## Schematics and design
 
 
-
+![image](https://user-images.githubusercontent.com/53545740/69512942-fa837e80-0faa-11ea-8c1f-a5a27b8add50.png)
 Figure 2. Schematic of component configuration
 
 The display used for this project was the SDD1306 128x64 OLED. This model uses the i2c protocol. The y axis is connected to an analog input and switch of the joystick connected to a digital input with internal pull up resistors activated. The controller used is the Teensy LC which was programmed using visual studio code with the Arduino framework.
@@ -27,21 +28,17 @@ The display used for this project was the SDD1306 128x64 OLED. This model uses t
 
 The Inter-Integrated Circuit (I2C) protocol is a master-slave bus topology network. It is a wired, synchronous half duplex serial communication, which means there is a dedicated clock line to synchronise the two devices and a data line that can send data one way at a time. Each device on the network has its own address which allows the data to be sent only to the relevant devices. See figure 3 for basic representation.
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)<![endif]>
-
+![image](https://user-images.githubusercontent.com/53545740/69512946-feaf9c00-0faa-11ea-9475-24e32b08c345.png)
 Figure 3. I2C transmission (DLN ware, 2016)
 
 ### Button configuration and Pull up resistors
 
 The microcontrollers default pin mode is the input state. When the controller is in the input state it has high impedance, which means the circuit allows a relatively small amount of current through for the applied voltage. When a button is connected from an input pin to ground, a series current limiting resistor does not need to be added because of the high impedance limiting the current. However, a pullup resistor does need to be added to the line as seen in figure 1. Without a pullup resistor the input line acts as an antenna which picks up the surrounding interference. The interference will cause the pin to float and appear noisy and can cause undesired readings on the microcontroller. To stop the floating a pullup resistor typically between 1K-10K ohms is connected from the input line to the 3.3V pin on the controller (see figure 3). This causes the input line to have a constant 3.3V along it while the button is not pushed which is read as logic 1 by the microcontroller. When the button is pushed the current is sinking through the connection to ground and the voltage drops to 0V which is read as a logic 0 by the microcontroller.
 
-<![if !vml]>![https://user-images.githubusercontent.com/53545740/66182125-2cc1df80-e6d0-11e9-8e6a-22c7ecda8ce1.png](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png)<![endif]>
-
+![image](https://user-images.githubusercontent.com/53545740/69512949-02432300-0fab-11ea-8963-2175dc2858ee.png)
 Figure 4 Pull up resistor configuration and transmission signal.
 
 When using mechanical buttons as an input for a microcontroller a process called de-bouncing needs to be performed. When a mechanical button is pushed there is always a 'bounce'. The typical reading for a mechanical button being pushed can be seen in figure 7. We cannot remove the bouncing effect however, because we are using a microcontroller, we can add additional code to the program to ignore the bounce. This is done by creating an 'ignore time' which tells the program to ignore any input changes for a set time after the initial change. The ignore time is different for each button however, for the button used in this project an ignore time of 80-120 milliseconds was used.
-
-<![if !vml]>![https://user-images.githubusercontent.com/53545740/66182132-38ada180-e6d0-11e9-8d4b-d4fd25abd66f.png](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)<![endif]>
 
 Figure 5 Button de-bounce waveform. From (Electronics tutorials,2018)
 
@@ -219,5 +216,5 @@ Presentation Process. (2013, October 25). _Waterfall model_. Retrieved from Yout
 
 Electronic Tutorials. (2018, April 25). Input Interfacing Circuits Connect to the Real World. Retrieved from [https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html](https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4NDU0MzUwLDE1OTc1NDI0MTddfQ==
+eyJoaXN0b3J5IjpbMTMyMzE0Nzg2NywxNTk3NTQyNDE3XX0=
 -->
