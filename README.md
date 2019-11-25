@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/53545740/69531029-089bc400-0fd8-11ea-85a4-4274a2c157a9.png)
+
 # Finite State Machine
 **Jack Heyward**
 
@@ -181,6 +183,7 @@ Presentation Process. (2013, October 25). _Waterfall model_. Retrieved from Yout
 
 Electronic Tutorials. (2018, April 25). Input Interfacing Circuits Connect to the Real World. Retrieved from [https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html](https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTI5OTAzMjEsMTUwNDIzMzQ2NCwxMD
-E5MDQyODY1LC04Mjg5MDY5NjksMTU5NzU0MjQxN119
+eyJoaXN0b3J5IjpbLTEyMTgzMTAxNywtMTc5Mjk5MDMyMSwxNT
+A0MjMzNDY0LDEwMTkwNDI4NjUsLTgyODkwNjk2OSwxNTk3NTQy
+NDE3XX0=
 -->
