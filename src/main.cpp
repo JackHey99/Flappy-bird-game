@@ -273,7 +273,7 @@ void score ()
   if (brick1_x_position == 24 || brick3_x_position == 24)
   {
     points++;
-    //Serial.println(points);
+    //Serial.println(points)
   }
 }
 
