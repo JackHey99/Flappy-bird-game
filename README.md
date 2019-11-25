@@ -167,7 +167,7 @@ Lastly splitting the game so the state machine is in one program and the game is
 
 The aim of this project was to create an embedded systems-based game using a Teensy, 128x64 OLED display and other selected components. The game had to include a home screen, game screen, paused screen and game over screen which must display a score. The program had to be based on a finite state machine using the enum, switch and case functions. Libraries such as the Adaftuit_SDD1306 could be used to control the display. The final game was biased on the flappy bird game, the system used a joystick to control the position of the bird and the built-in button was used to control going between states. There are some improvements that could be made however, the current program is a working prototype that has been designed to gain an understanding of how finite state machines work.
 
-A video report can be found at:
+A video report can be found at: [https://youtu.be/1Ao4YUDgqog](https://youtu.be/1Ao4YUDgqog)
 
 File path to code: src/main.cpp
 
@@ -181,6 +181,6 @@ Presentation Process. (2013, October 25). _Waterfall model_. Retrieved from Yout
 
 Electronic Tutorials. (2018, April 25). Input Interfacing Circuits Connect to the Real World. Retrieved from [https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html](https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDIzMzQ2NCwxMDE5MDQyODY1LC04Mj
-g5MDY5NjksMTU5NzU0MjQxN119
+eyJoaXN0b3J5IjpbLTE3OTI5OTAzMjEsMTUwNDIzMzQ2NCwxMD
+E5MDQyODY1LC04Mjg5MDY5NjksMTU5NzU0MjQxN119
 -->
