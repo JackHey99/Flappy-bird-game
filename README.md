@@ -69,16 +69,19 @@ Figure 8. State transition diagram for flappy bird game
 
 ## Pseudo code
 
+![image](https://user-images.githubusercontent.com/53545740/69513022-48988200-0fab-11ea-9dce-f934a54422df.png)
 
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg)<![endif]>
+# Implementation
 
+## Program
+
+![image](https://user-images.githubusercontent.com/53545740/69512971-12f39900-0fab-11ea-8ab0-9431e9585e6a.png)
 Figure 9 setup
 
 Figure 9 is the setup of the variables and pins, setup of the bit array for the bird image and including of the libraries.
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image018.jpg)<![endif]>
-
+![image](https://user-images.githubusercontent.com/53545740/69512985-27d02c80-0fab-11ea-8528-47e98dfd1f50.png)
 Figure 10 more setup and state machine
 
 Figure 10 is the setup of the display address and configuring the input pull up resistor and interrupt.
@@ -177,5 +180,5 @@ Presentation Process. (2013, October 25). _Waterfall model_. Retrieved from Yout
 
 Electronic Tutorials. (2018, April 25). Input Interfacing Circuits Connect to the Real World. Retrieved from [https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html](https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzcyNTgzNCwxNTk3NTQyNDE3XX0=
+eyJoaXN0b3J5IjpbNjQ0NzU3NzU2LDE1OTc1NDI0MTddfQ==
 -->
