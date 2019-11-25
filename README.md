@@ -17,7 +17,7 @@ The aim of this project is to create an embedded systems-based game using a Teen
 
 ## Schematics and design
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)<![endif]>
+
 
 Figure 2. Schematic of component configuration
 
@@ -219,5 +219,5 @@ Presentation Process. (2013, October 25). _Waterfall model_. Retrieved from Yout
 
 Electronic Tutorials. (2018, April 25). Input Interfacing Circuits Connect to the Real World. Retrieved from [https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html](https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzU0MjQxN119
+eyJoaXN0b3J5IjpbMzQ4NDU0MzUwLDE1OTc1NDI0MTddfQ==
 -->
