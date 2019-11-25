@@ -88,26 +88,23 @@ Figure 10 is the setup of the display address and configuring the input pull up 
 
 The void loop contains the state machine where the four states are contained using the switch function.
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image020.jpg)<![endif]>
-
+![image](https://user-images.githubusercontent.com/53545740/69512992-2bfc4a00-0fab-11ea-8d56-3ecd7095baa8.png)
 Figure 11. Home screen, final score and game setup
 
 Figure 11 controls the home screen display and final score display. The game is broken into five separate parts, obstacle position, create obstacle, bird position, display current screen and score.
 
-## <![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image022.jpg)<![endif]>
-
+![image](https://user-images.githubusercontent.com/53545740/69512996-2f8fd100-0fab-11ea-8b20-2c841d6171cb.png)
 Figure 12. paused screen and game
 
 Figure 12 controls the paused screen and part of the game. The bird position is gathered by reading the potentiometer value and mapping it to the height of the display 64 pixels. A floating average is used to stop the fluctuations in the potentiometer causing the bird to hover up and down. The brick position moves from right to left 2 pixels at a time to give the illusion the frame rate is faster than it is. The original 1 pixel at a time was not fast enough. Each time an obstacle is created it is checked to make sure it is a different size to the previous as the random number generator can create several of the same values in a row.
 
-## <![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image024.jpg)<![endif]>
-
+![image](https://user-images.githubusercontent.com/53545740/69513002-328ac180-0fab-11ea-989e-a4a58fae18aa.png)
 Figure 13 display the screen
 
 To avoid flickering on the display all the objects on the screen are displayed on the screen at the same time. The screen gets cleared then all graphics are loaded to be displayed using the display.display() function. The score is increase if the bird successfully makes if through the blocks. If the block is hit the game is over and the score is displayed on the end screen.
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image025.png)<![endif]>
 
+![image](https://user-images.githubusercontent.com/53545740/69513006-361e4880-0fab-11ea-9d14-bb5d9bea50fd.png)
 Figure 14. Button interrupt and debounce
 
 Figure 14 is the interrupt which is triggered by the push of the button on the joystick. A debounce delay of 80 milliseconds in introduced to filter out the button bouncing as mentioned above.
@@ -180,5 +177,5 @@ Presentation Process. (2013, October 25). _Waterfall model_. Retrieved from Yout
 
 Electronic Tutorials. (2018, April 25). Input Interfacing Circuits Connect to the Real World. Retrieved from [https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html](https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0NzU3NzU2LDE1OTc1NDI0MTddfQ==
+eyJoaXN0b3J5IjpbLTc0NjU4Mjg4MCwxNTk3NTQyNDE3XX0=
 -->
