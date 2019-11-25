@@ -40,17 +40,18 @@ Figure 4 Pull up resistor configuration and transmission signal.
 
 When using mechanical buttons as an input for a microcontroller a process called de-bouncing needs to be performed. When a mechanical button is pushed there is always a 'bounce'. The typical reading for a mechanical button being pushed can be seen in figure 7. We cannot remove the bouncing effect however, because we are using a microcontroller, we can add additional code to the program to ignore the bounce. This is done by creating an 'ignore time' which tells the program to ignore any input changes for a set time after the initial change. The ignore time is different for each button however, for the button used in this project an ignore time of 80-120 milliseconds was used.
 
+![image](https://user-images.githubusercontent.com/53545740/69512958-05d6aa00-0fab-11ea-8c31-0a21480a1533.png)
 Figure 5 Button de-bounce waveform. From (Electronics tutorials,2018)
 
 ## Libraries
 
 The libraries used were the Adafruit_SSD1306 and Adafruit_GFX. The Adafruit_SSD1306 is used to control the display and has functions such as scroll, fast line and the Adafruit_GFX is used to draw graphics such as lines, circles, rectangles, etc.
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)<![endif]>
+![image](https://user-images.githubusercontent.com/53545740/69512963-08390400-0fab-11ea-8286-4b549ba5e312.png)
 
 Figure 6. Adafruit_SSD1306 library
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)<![endif]>
+![image](https://user-images.githubusercontent.com/53545740/69512965-0a9b5e00-0fab-11ea-9fc2-35c84cb7aad3.png)
 
 Figure 7. Adafruit_GFX library
 
@@ -62,53 +63,13 @@ URL: https://javl.github.io/image2cpp/
 
 Below is the state transition diagram for the proposed game. There are four state, start screen, end screen, game playing, and game paused as outlined in the requirements. There are three events, button push, block hit and score display finished. Not all actions are included however the basic parts of the game are included.
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg)<![endif]>
+![image](https://user-images.githubusercontent.com/53545740/69512967-0ec77b80-0fab-11ea-8687-8b67f5f2d26b.png)
 
 Figure 8. State transition diagram for flappy bird game
 
 ## Pseudo code
 
-**Start screen:**
 
-<![if !supportLists]>· <![endif]>Display title
-
-<![if !supportLists]>· <![endif]>Prompt user to start game
-
-<![if !supportLists]>· <![endif]>Show small image
-
-**Game playing:**
-
-<![if !supportLists]>· <![endif]>Create blocks
-
-<![if !supportLists]>· <![endif]>Are blocks different size from last ones?
-
-<![if !supportLists]>· <![endif]>Move blocks from right to left
-
-<![if !supportLists]>· <![endif]>Get bird location
-
-<![if !supportLists]>· <![endif]>If bird makes it through blocks increase score
-
-<![if !supportLists]>· <![endif]>If bird hits block end game
-
-**Game paused:**
-
-<![if !supportLists]>· <![endif]>Show paused title
-
-<![if !supportLists]>· <![endif]>Show small image
-
-<![if !supportLists]>· <![endif]>Prompt user to continue game
-
-**Game over:**
-
-<![if !supportLists]>· <![endif]>Show game over title
-
-<![if !supportLists]>· <![endif]>Show score
-
-<![if !supportLists]>· <![endif]>Wait for 5 seconds before going to start screen
-
-# Implementation
-
-## Program
 
 <![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg)<![endif]>
 
@@ -216,5 +177,5 @@ Presentation Process. (2013, October 25). _Waterfall model_. Retrieved from Yout
 
 Electronic Tutorials. (2018, April 25). Input Interfacing Circuits Connect to the Real World. Retrieved from [https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html](https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzE0Nzg2NywxNTk3NTQyNDE3XX0=
+eyJoaXN0b3J5IjpbMTI1NzcyNTgzNCwxNTk3NTQyNDE3XX0=
 -->
