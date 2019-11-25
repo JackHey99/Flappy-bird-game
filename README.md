@@ -127,24 +127,23 @@ The first step was to create the blocks moving across the screen with different 
 
 Figure 15 below is the SCL (yellow line) and SDA (green line) transmission waveform. This is an interesting issue that arose during testing. The green lines slight increase to 0.5V in the fifth square is an odd issue which I could not fully determine the cause of. My best guess is the hardware limitations of the Teensy LC mention previously or some cross talk between wires and pins switching.
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image027.jpg)<![endif]>
-
+![image](https://user-images.githubusercontent.com/53545740/69513009-39193900-0fab-11ea-9530-39d18b9a6c4f.png)
 Figure 15. SCL and SDA transmission line waveform
 
 ### Resistors
 
 The pull up resistor attached to the SCL and SDA lines are identified to be 4.7kΩ. When an additional resistor is added it is in parallel with the onboard resistance reducing the total resistance. This creates a ‘stronger’ connection to the pull up supply rail charging the capacitive line much faster.
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image029.jpg)<![endif]>
 
+![image](https://user-images.githubusercontent.com/53545740/69513015-3c142980-0fab-11ea-8035-2ab3f69cfa41.png)
 Figure 16. Schematic of SDD1306 display (Haoyu electronics, 2019)
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image031.jpg)<![endif]>
 
+![image](https://user-images.githubusercontent.com/53545740/69513016-3e768380-0fab-11ea-980c-d2cedc436f45.png)
 Figure 17. Clock without additional pull up resistors
 
-<![if !vml]>![](file:///C:/Users/jackh/AppData/Local/Temp/msohtmlclip1/01/clip_image033.jpg)<![endif]>
 
+![image](https://user-images.githubusercontent.com/53545740/69513019-40d8dd80-0fab-11ea-87ec-1d60390d388f.png)
 Figure 18. Clock with additional pull up resistors
 
 As seen in figure 17 and 18 the clock line with additional pull up resistor’s charges much faster that the line without additional pull up resistors.
@@ -177,5 +176,5 @@ Presentation Process. (2013, October 25). _Waterfall model_. Retrieved from Yout
 
 Electronic Tutorials. (2018, April 25). Input Interfacing Circuits Connect to the Real World. Retrieved from [https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html](https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjU4Mjg4MCwxNTk3NTQyNDE3XX0=
+eyJoaXN0b3J5IjpbLTgyODkwNjk2OSwxNTk3NTQyNDE3XX0=
 -->
