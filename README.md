@@ -4,7 +4,7 @@
 **ID#2174132**
 
 **Embedded systems**
-
+![image](https://user-images.githubusercontent.com/53545740/69512921-e93a7200-0faa-11ea-8c48-462c1f62e6bb.png)
 Figure 1. Format of report and project implementation (Presentation Processes, 2013)
 
 This project followed a four-step waterfall model as seen in figure 1, which this report is based off
@@ -219,5 +219,5 @@ Presentation Process. (2013, October 25). _Waterfall model_. Retrieved from Yout
 
 Electronic Tutorials. (2018, April 25). Input Interfacing Circuits Connect to the Real World. Retrieved from [https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html](https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTM5NTcxMl19
+eyJoaXN0b3J5IjpbMTU5NzU0MjQxN119
 -->
