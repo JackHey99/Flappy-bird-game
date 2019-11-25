@@ -73,7 +73,7 @@ Figure 8. State transition diagram for flappy bird game
 
 
 # Implementation
-The final wiring can be seen in the figure below. longer jumper wires were 
+The final wiring can be seen in the figure below. longer jumper wires were used for the joystick so it could be conveniently moved around.
 ![IMG_20191125_115939](https://user-images.githubusercontent.com/53545740/69513951-9e225e00-0fae-11ea-8503-ce324868ffbd.jpg)
 ## Program
 
@@ -181,6 +181,6 @@ Presentation Process. (2013, October 25). _Waterfall model_. Retrieved from Yout
 
 Electronic Tutorials. (2018, April 25). Input Interfacing Circuits Connect to the Real World. Retrieved from [https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html](https://www.electronics-tutorials.ws/io/input-interfacing-circuits.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzA2NjgwOCwxMDE5MDQyODY1LC04Mj
+eyJoaXN0b3J5IjpbMTUwNDIzMzQ2NCwxMDE5MDQyODY1LC04Mj
 g5MDY5NjksMTU5NzU0MjQxN119
 -->
